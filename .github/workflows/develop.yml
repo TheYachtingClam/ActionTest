@@ -1,0 +1,16 @@
+name: Develop Branch Debugger
+
+on:
+    push:
+        branches:
+            - develop
+
+jobs:
+    DebugLikeHell:
+        name: DebugLikeHell
+        runs-on: ubuntu-latest
+        steps:
+            - name: Prepare
+              id: prep
+              run: |
+                  echo "::notice ref=$GITHUB_REF"

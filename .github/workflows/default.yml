@@ -2,6 +2,7 @@ name: Action Debugger
 
 on:
     push:
+    workflow_dispatch:
 
 jobs:
     DebugLikeHell:

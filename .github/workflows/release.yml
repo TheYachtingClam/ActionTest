@@ -1,4 +1,4 @@
-name: AllTags Debugger
+name: Release Debugger
 
 on:
     release:

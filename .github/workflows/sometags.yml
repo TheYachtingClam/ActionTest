@@ -1,8 +1,9 @@
-name: Action Debugger
+name: Some Tags Debugger
 
 on:
     push:
-    workflow_dispatch:
+        tags:
+            - "{*}.{*}.{*}"
 
 jobs:
     DebugLikeHell:

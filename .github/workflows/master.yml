@@ -1,8 +1,9 @@
-name: Action Debugger
+name: Master Branch Debugger
 
 on:
     push:
-    workflow_dispatch:
+        branches:
+            - master
 
 jobs:
     DebugLikeHell:
